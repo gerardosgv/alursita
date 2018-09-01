@@ -1,0 +1,75 @@
+/***Overrides***/
+.box {
+    background-color: #fff;
+    border-radius: 0px !important;
+    box-shadow: none !important;
+    border-top: 1px solid #ebebeb;
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+}
+
+.postLoop4{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.postLoop4-feat{
+    width: 100%;
+    opacity: .8;
+}
+
+.postLoop4-main-feat{
+    height: 100%;
+}
+
+.postLoop4Img{
+    height: 100%;
+}
+
+.postLoop4Txt{
+    height: 400px;
+}
+
+.pfeatured-desc {
+    padding: 4em 0;
+    text-align: justify;
+}
+
+.fposts-list{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.fposts-list li{
+    float: left;
+    width: 50%;
+    display: inline-block;
+}
+
+.fposts-img{
+    height: 100%;
+    width: 30%;
+}
+
+.mas-info-cta{
+    float: right;
+}
+
+@media screen and (max-width: 812px) {
+    .fposts-list li{
+        width: 100%;
+    }
+
+    .pfeatured-desc {
+        padding: 5em 0;
+    }
+    .postLoop4Txt{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 812px){
+.pfeatured-desc {
+    padding: 0;
+}
+}
