@@ -1,0 +1,77 @@
+/***Overrides***/
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+  
+    max-width: 98%; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+  }
+
+.top-col{
+    height: 520px;
+    /*border: 2px solid black;*/
+}
+
+.small-col{
+    height: 130px;
+    /*border: 1px solid black;*/
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.pl4img-container{
+    height: 95%;
+    width: 95%;
+    margin: 2.5%;
+    background: gray;
+}
+
+.pl4txt-container{
+    height: 95%;
+    width: 95%;
+    margin: 2.5%;
+    padding: 4em 2em;
+}
+
+.pl4-short{
+    height: 95%;
+    width: 95%;
+    margin:  0 2.5%;
+}
+
+.mas-info-cta{
+    float: right;
+    margin-top: 20px;
+}
+
+.pl4-shortImg{
+    float: left;
+    width: 100px;
+    height: 97px;
+    background: red;
+}
+
+.pl4-shortTxt{
+    width: 60%;
+    height: 97px;
+    margin-left: 120px;
+}
+
+.pl4-shortTxt p{
+    font-size: 0.8em;
+}
+
+.pl4-shortTxt h3{
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 1100px) {
+    .top-col{
+        height: 360px;
+        /*border: 2px solid black;*/
+    }
+}
+

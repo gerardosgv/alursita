@@ -1,0 +1,149 @@
+.wrapper {
+    margin-right: auto; /* 1 */
+    margin-left: auto; /* 1 */
+  
+    max-width: 98%; /* 2 */
+  
+    padding-right: 10px; /* 3 */
+    padding-left: 10px; /* 3 */
+  }
+
+.box-main-container{
+    position: relative; 
+    height: 550px;
+}
+
+/*****CREATED******/
+body{
+  background: #edebea;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.main-container{
+  height: 400px;
+  width: 100%;
+  margin: 0 !important;
+}
+
+#foto-mobil{
+      display: none;
+   }
+
+
+.box-txt{
+   height: 240px;
+   width: 100%;
+   color: #141414;
+  margin-top: 5px;
+}
+
+.box-txt h1{
+    font-size: 32px;
+    margin: 0;
+}
+
+.box-txt h3{
+   font-size: 20px;
+}
+
+.box-txt p{
+   color: black;
+   font-size: 14px;
+}
+
+
+.cta-box{
+    width: 30%;
+    text-align: center;
+    /*float: right;
+    margin-top: 65px;*/
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    font-size: 0.88em;
+    font-weight: bold;
+}
+
+
+.boxes-container:hover{
+     cursor: pointer;
+}
+
+.box-img-centered{
+     position: relative;
+    margin: 0 auto;
+    background-color: #ccc;
+    padding: 3em;
+    width: 95%;
+    height: 385px;
+    /* left: 8%; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
+    cursor:pointer;
+}
+
+.hover-img{
+     	transition: all 0.4s ease;
+        cursor: pointer;
+        transform: translate(0%, 1%);
+        opacity: 0.88;
+}
+
+.hover-txt{
+    transform: translate(-50%, -55%) !important;
+   	top: 60;
+	transition: all 0.8s ease !important;
+    cursor: pointer;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
+
+.box-txt-centered{
+     position: absolute;
+    top: 11em;
+    height: 300px;
+    /* right: 25.5%; */
+    background-color: white;
+    color: #fff;
+    padding: 3em;
+    width: 80%;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 2;
+    transition: transform 0.8s ease 0s, opacity 0.8s ease 0s;
+    cursor:pointer;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+/****MOBILE BOXES******/
+
+
+.img-mobile{
+ position:relative;
+ background-color: #ccc;
+ padding: 3em;
+ width: 100%;
+ height: 400px;
+ left: -3em;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.txt-mobile{
+ position: absolute;
+ height: 250px;
+ background-color: white;
+ color: #fff;
+ padding: 3em;
+ width: 75%;
+ /*top: 65%;*/
+ left: 50%;
+ transform: translate(-50%, -50%);
+ z-index: 2;
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) !important;
+}
+
