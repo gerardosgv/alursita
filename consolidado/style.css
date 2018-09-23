@@ -1,5 +1,11 @@
 .space-btm{
-    margin-bottom: 80px;
+margin-bottom: 80px;
+}
+
+.space-btm2{
+    background: inherit;
+    height: 80px;
+    width: 100%;
 }
 .section-container{
     margin-top: 80px;
@@ -60,6 +66,10 @@
     margin-top: 65%;
     position: absolute;
     bottom: 0;
+}
+
+.desc-area h3{
+    padding: 0.5em;
 }
 
 
