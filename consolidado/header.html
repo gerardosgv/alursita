@@ -1,0 +1,99 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Header</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+	$(document).ready(function(){
+		
+		var navOffSet = jQuery("nav").offset().top;
+		
+		jQuery(window).scroll(function(){
+			
+			var ScrollPos = jQuery(window).scrollTop();
+				if(ScrollPos >= navOffSet){
+					jQuery('nav').addClass('sticky');
+				}else{
+					jQuery('nav').removeClass('sticky');
+				}
+		});
+		
+		
+	});
+	
+</script>	
+		
+<style>
+	* {
+		margin: 0; padding: 0;
+	}
+	
+	div {
+		background-color: aqua;
+		width: 100%;
+		height: 150px;
+	}
+	
+	nav {
+		position: absolute; top: 200px; 
+		background-color: #000000;
+		width: 100%;
+		height: 80px;
+		padding: 5px 0;
+		overflow: hidden;
+	}
+	
+	nav {
+		width: 100%;
+		height: 80px;
+	}
+	
+	nav li {
+		background-color:aliceblue;
+		width: 140px;
+		height: 60px;
+		float: left;
+		margin: 8px 20px;
+		list-style-type: none;
+	}
+	
+	.sticky{
+		position: fixed; top:0;
+		width: 100%;
+	}
+</style>
+</head>
+
+<body>
+
+<header>
+	
+	<h1>Sample Header</h1>
+	
+</header>
+
+
+<nav id="navbar">
+	
+	<ul>
+		<li>Section1</li>
+		<li>Section2</li>
+		<li>Section3</li>
+		<li>Section4</li>
+		<li>Section5</li>
+		<li>Section6</li>
+		<li>Section7</li>
+	</ul>
+</nav>
+
+<h2 style="margin: 10px;">Content</h2>
+
+<p style="line-height: 28px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis, animi cumque natus asperiores similique ipsum iusto ipsam ea porro ab, eos laudantium eaque libero facere sunt assumenda officiis et dolores quasi neque, molestias dolor quos aspernatur quod. Cumque iure sit architecto fugiat quam rem in illum, ipsa iusto autem quos explicabo. Obcaecati veniam sit quaerat explicabo, excepturi quibusdam ducimus distinctio? Magnam delectus assumenda autem voluptate, natus odio dignissimos blanditiis. Facere, assumenda id aperiam placeat, ab soluta in est tenetur nihil voluptatibus quam fugiat excepturi nulla odio. Eum itaque nisi quis non repudiandae, voluptatem laboriosam necessitatibus consequatur ipsum, consequuntur aspernatur quasi minima recusandae accusamus a ut temporibus. Repellat natus deleniti, laudantium sunt reiciendis veritatis ducimus molestias at accusamus nemo nulla, dolore, doloribus quas reprehenderit ratione possimus numquam voluptatum quod nam corporis architecto repellendus eius. Ut minus, deleniti id repellendus numquam. Veniam libero consectetur inventore labore eveniet, unde, corrupti rerum repellendus quos!</p>
+<br>
+<p style="line-height: 28px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore dolores, amet quaerat expedita quod. Consectetur, aliquam autem optio eligendi soluta consequatur voluptatem explicabo itaque, necessitatibus cupiditate ullam non dignissimos, atque nostrum suscipit voluptatibus quia in a iure. Accusamus odio similique quaerat, impedit, voluptas repellat, eligendi accusantium tempore animi facilis consequatur amet itaque facere! Molestiae quos dolores sint deleniti voluptatem corrupti laborum a suscipit ipsum repudiandae ipsam soluta fuga accusamus perferendis repellendus quaerat ratione asperiores, magni assumenda, quibusdam enim at itaque consequuntur laudantium. Earum obcaecati magnam ad vero quae necessitatibus, optio excepturi impedit ea nihil at officia culpa, neque alias eum tenetur dicta, totam debitis quasi. Quaerat corrupti a, cumque corporis dolor qui ipsam, hic vero libero iure nulla consequuntur quod tenetur unde cum magnam, nesciunt odio harum incidunt. Quibusdam iusto corporis sapiente dolorum error rerum eveniet, architecto! Incidunt ab reprehenderit eveniet, maiores, rerum vel at, qui similique eius, provident ducimus aperiam aliquid sint. Beatae perferendis aspernatur temporibus cupiditate voluptate facilis maxime repellendus sapiente repellat iusto iure adipisci officiis quae expedita soluta eos dolore sint vitae perspiciatis ullam, harum possimus. Eum labore corrupti nisi inventore nam, ab voluptas, numquam, reiciendis perferendis esse error tempora commodi veritatis excepturi. Magnam atque itaque ratione totam labore ut, temporibus mollitia laudantium corporis sequi aliquid numquam saepe officia illo blanditiis molestias dolorum sed quos error. Eos aut nihil officia cupiditate nostrum. Id, perspiciatis repellat numquam tempora ad, iste, necessitatibus ullam iusto qui voluptas enim quae soluta. Totam in non adipisci inventore expedita aliquid odit quisquam libero reiciendis, quia distinctio, debitis minima aspernatur a incidunt vero ullam iste quibusdam vel optio. Dolores aliquid consequatur ullam, voluptatibus error amet magni sapiente quisquam eaque maiores tenetur reiciendis optio impedit ratione odio cumque quibusdam, suscipit unde. Repellendus, ea non quibusdam repellat atque modi illum, optio amet architecto et ipsum commodi.</p>
+<br>
+<p style="line-height: 28px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, a et fuga voluptates accusantium! Pariatur voluptatem placeat asperiores tempore doloribus enim sequi provident. Alias fuga ut iusto provident vero qui dolorem sint eveniet amet dignissimos suscipit autem fugit sequi quia recusandae cum porro soluta quos hic minima cumque molestias, quibusdam repellat optio architecto! Non voluptates praesentium nemo vitae alias distinctio tempore, cumque ducimus voluptatem iure earum eos, tempora doloribus reiciendis velit deserunt suscipit obcaecati. Sequi odio consequatur, aliquam consectetur! Iusto, eum culpa. Numquam soluta itaque, consectetur, molestiae fugit culpa sequi voluptate ea veniam voluptatibus, eum obcaecati labore quaerat illo blanditiis. Voluptate dolor ipsam fuga reiciendis a consectetur quasi adipisci odio explicabo ipsum, quo tempora, voluptatum, possimus aut pariatur id non, fugiat! Magnam sint, aut enim. Sunt maxime rem quas, laudantium perferendis nemo, odit iure delectus numquam suscipit cupiditate. Aliquid at, nisi unde. Sed itaque molestiae rem quo sapiente, atque ipsa!</p>
+</body>
+</html>
